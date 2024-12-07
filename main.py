@@ -7,6 +7,6 @@ books = {
 }
 
 for i, book in books.items():
-    print(f" ---------------------- Книга {i} -----------------------") 
+    print(f"Книга {i}".center(30, '-')) 
     print(f"Название: {book['title']}, Автор: {book['author']},") 
-    print(f" -------------------------{book['year']}-------------------------")
+    print(f"{book['year']}".center(30, '-'))
